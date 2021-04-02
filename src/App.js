@@ -23,6 +23,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
+            <p className="App__text">No more people arround you</p>
             <TinderCards />
             <SwipeButtons />
           </Route>

@@ -1,12 +1,19 @@
 .swipeButtons
 {
     position: fixed;
-    bottom: 5vh;
+    bottom: -20px;
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+.swipeButtons__container
+{
+    padding: 55px 10px;
+    display: flex;
+    max-width: 700px;
+    width: 100%;
     justify-content: space-evenly;
 }
-
 .swipeButtons .MuiIconButton-root
 {
     background: #fff;
@@ -18,7 +25,7 @@
 .swipeButtons__right,
 .swipeButtons__lightning
 {
-    padding: 3vw !important;
+    padding: 15px !important;
 }
 .swipeButtons__repeat
 {
