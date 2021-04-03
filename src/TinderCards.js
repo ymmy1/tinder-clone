@@ -23,6 +23,7 @@ function TinderCards() {
         };
     }, [])
 
+
     // people.push('admin', 'tester') ==
     // setPeople([...people, 'admin', 'tester'])
     return (
@@ -33,6 +34,7 @@ function TinderCards() {
                         className="swipe"
                         key={person.name}
                         preventSwipe={['down']}
+
                     >
                         <div
                             style={{ backgroundImage: `url(${person.url})` }}
@@ -45,6 +47,9 @@ function TinderCards() {
                                 <h4>{person.work}</h4>
 
                             </div>
+                            <div className="status nope">NOPE</div>
+                            <div className="status like">LIKE</div>
+                            <div className="status superlike">SuperLike</div>
                         </div>
                     </TinderCard>
                 ))}

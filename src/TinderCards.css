@@ -11,7 +11,7 @@
     width: 600px;
     padding: 20px;
     max-width: 85vw;
-    height: 70vh;
+    height: calc(100vh - 300px);
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -39,4 +39,34 @@
 {
     position: absolute;
     border-radius: 20px;
+}
+
+.status
+{
+    position: absolute;
+    padding: 1% 3%;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000000;
+    opacity: 0;
+    transition: 0.2s;
+}
+.nope
+{
+    color:#ec5e6f;
+    border: 5px solid #ec5e6f;
+    left: 20px;
+}
+.like
+{
+    color:#76e2b3;
+    border: 5px solid #76e2b3;
+    right: 20px;
+}
+.superlike
+{
+    color:#62b4f9;
+    border: 5px solid #62b4f9;
+    left: 250px;
 }
