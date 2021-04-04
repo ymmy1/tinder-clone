@@ -31,12 +31,12 @@
 {
     color: #f5b748 !important;
 }
-.swipeButtons__left
-{
-    color: #ec5e6f !important;
-}
-.swipeButtons__star
-{
-    color: #62b4f9 !important;
-}
 
+.swipeButtons__right
+{
+    color: #76e2b3 !important;
+}
+.swipeButtons__lightning
+{
+    color: #915dd1 !important;
+}
