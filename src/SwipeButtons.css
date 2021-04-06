@@ -25,9 +25,12 @@
 .swipeButtons__right,
 .swipeButtons__lightning
 {
-    padding: 15px !important;
+    padding: 25px !important;
 }
-
+.swipeButtons__repeat
+{
+    color: #f5b748 !important;
+}
 .swipeButtons__left
 {
     color: #ec5e6f !important;
